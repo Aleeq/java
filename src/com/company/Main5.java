@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main5 {
     public static void main(String[] args){
         int num1, num2, result;
+        boolean isTrue = true;
+
         char sym;
         Scanner scn= new Scanner (System.in) ;
         System.out.println("Please enter first number: ");
