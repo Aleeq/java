@@ -7,8 +7,13 @@ public class Ex15 {
     public static void main(String[] args){
         String[] months = new String[]{"January", "February","March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
         String[] months2 = new String[]{"january", "february","march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
+        int i=0;
+        for(String element: months){
+            months[i] element.toLowerCase();
+            i++;
+        }
         Scanner scn = new Scanner(System.in);
-        System.out.println("Please enter some name of month: ");
+                System.out.println("Please enter some name of month: ");
         String someMonth = scn.nextLine();
 
 
