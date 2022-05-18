@@ -14,6 +14,6 @@ public class Ex22 {
 
     public static void main(String[] args){
         System.out.println(sum(5, 6, 7));
-        System.out.println(sum(5.7, 5.9));
+        System.out.println(sum(5.7f, 5.9f));
     }
 }
