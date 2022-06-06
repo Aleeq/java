@@ -11,7 +11,6 @@ public class Country implements CountryInt{
     @Override
     public void printCountry(String capital) {
         System.out.println("The capital of " +country + " is " + capital );
-
     }
 }
 
