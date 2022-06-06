@@ -1,2 +1,6 @@
-package com.company;public class Move {
+package com.company;
+
+public class Move {
+    public void moving(){
+          }
 }

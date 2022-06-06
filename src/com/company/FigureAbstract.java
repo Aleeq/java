@@ -1,2 +1,7 @@
-package com.company;public class FigureAbstract {
+package com.company;
+
+public abstract class FigureAbstract {
+
+    abstract public void draw();
+
 }

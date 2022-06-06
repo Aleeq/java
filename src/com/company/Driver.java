@@ -1,2 +1,7 @@
-package com.company;public class Driver {
+package com.company;
+
+public class Driver extends Move {
+    public void moving() {
+        System.out.println("driving");
+    }
 }
