@@ -14,17 +14,17 @@ public class MainApp2 extends JFrame {
 
     public MainApp2(){
         super("Example form");
-        this.setBounds(0,0,1920,1080);
+        this.setBounds(710,440,500,200);
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container container = this.getContentPane();
         container.setLayout(new GridLayout(3,2,15,25));
         container.add(label);
-        Font myFont1 = new Font("Serif", Font.BOLD, 100);
+        Font myFont1 = new Font("Times New Roman", Font.BOLD, 16);
         label.setFont(myFont1);
         label.setOpaque(true);
         label.setBackground(Color.LIGHT_GRAY);
         container.add(label, BorderLayout.CENTER);
-        label.setBorder(BorderFactory.createMatteBorder(8,4,4,4, Color.RED));
+        label.setBorder(BorderFactory.createMatteBorder(4,4,4,4, Color.RED));
         container.add(input);
         ButtonGroup group = new ButtonGroup();
         group.add(radio1);
